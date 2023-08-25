@@ -1,0 +1,678 @@
+body{
+    padding: 0px;
+    margin: 0px;
+   
+   
+}
+
+.navbar li a{
+    text-decoration: none;
+    flex-wrap :     
+}
+.navbar li{
+    list-style-type:none;
+    margin: 20px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+
+}
+.navbar li img{
+    width: 150px;
+    margin-right: 150px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+   background-image:url(./true.jpeg) ;
+   
+  
+
+}
+.landingpage{
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-image: url(./true.jpeg);
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    
+    
+    }
+.landingpage div img{
+    width: 350px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+   
+
+   
+}
+#down{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: rgb(6, 52, 99);
+    color: aliceblue;
+    
+}
+.button1{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 0px;
+    color: white;
+    background-color: rgb(5, 65, 111);
+
+}
+.button1:hover{
+    color: rgb(9, 9, 15);
+    background-color: rgb(229, 226, 235);
+    cursor: pointer;
+}
+.myclient{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+ .myclient div{
+    color: white;
+    font-size: 20px;
+ }
+ .myclient1{
+    display: flex;
+    justify-content: center;
+ }   
+ .myclient1 img{
+    margin: 30px;
+    opacity: 0.5;
+
+ }
+ .myclient1 img:hover{
+    opacity: 1;
+ }
+ .imge1{
+    padding: 30px;
+    border-right: 1px solid black;
+}
+
+.imge1 img{
+    width: 60px;
+}
+
+.imge1 span{
+    font-size: 30px;
+    color: black;
+    font-weight: 3000;
+}
+
+.dedication{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+}
+.mainskill{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 50px;
+
+
+}
+.skills div{
+    border: 1px solid rgb(16, 16, 77);
+    background-color: white;
+    padding: 15px;
+    margin: 30px;
+
+}
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 100px;
+    background-image: url('https://itemsstore.net/html/trito/img/skills/1.jpg');
+    padding: 50px;
+    margin-bottom: 70px;
+
+}
+.skills1{
+    padding: 10px;
+    font-size: 5px;
+    margin-top: 100px;
+}
+.skillas5:hover{
+    color: rgb(239, 239, 246);
+    background-color: rgb(152, 48, 19);
+    cursor: pointer;
+}
+.everday {
+font-size: 50px;
+}
+.k{
+    margin-top: 100px;
+}
+.num1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+   
+}
+.h{
+    font-size: 55px;
+    margin: 25px;
+    margin-bottom: 50px;
+}
+.yo{
+    justify-content: center;
+    display: flex;
+    background-color: yellow;
+    border-top: 2px solid black;
+    margin-bottom: 50px;
+}
+.yo img{
+    width: 350px;
+}
+.ho{
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    
+}
+.button hire{
+    border: 10px;
+    border-color: black;
+    background-color: black;
+}
+.ss{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.ss img {
+    width: 100%;
+
+}
+.five{
+    display: flex;
+justify-content: center;
+}
+.five div{
+    border: 1px solid black;
+    width: 60%;
+    overflow: hidden;
+    margin: 10px;
+    padding: 0px;
+}
+.five img{
+    width: 120%;
+    
+}
+.five div img:hover{
+    scale: 1.2;
+    transition: scale 2s ease-out;
+}
+  
+  /* ===================FAQ==================== */
+
+
+.faq{
+    color: red;
+    padding-top: 120px;
+    cursor: pointer;
+
+
+}
+.faq1{
+    font-size: 55px;
+    font-weight:800;
+   word-spacing: 10px;
+    color: #24315e;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+
+.faq2{
+    width: 1000px;
+    background-color: #24315e;
+    padding: 30px;
+    padding-top: 8px;
+    color: white;
+    font-size: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    
+}
+.faq2 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 920px;
+    cursor: pointer;
+   
+}
+.faq2a{
+    width: 700px;
+    background-color:  #24315e;
+    padding: 30px;
+    padding-right: 180px;
+    padding-left: 180px;
+    color: white;
+    font-size: 20px;
+    margin-top: -100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+
+}
+#check1:checked~.faq2a{
+    margin-top: 10px;    
+    transition: margin-top 0.5s ease-out;
+    cursor: pointer;
+    
+}
+
+
+
+.faq3{
+    width: 1000px;
+    background-color: #24315e;
+    padding: 30px;
+    padding-top: 8px;
+    color: white;
+    font-size: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    
+}
+.faq3 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 920px;
+    cursor: pointer;
+
+}
+.faq3a{
+    width: 700px;
+    background-color:  #24315e;
+    padding: 30px;
+    padding-top: 8px;
+    padding-right: 180px;
+    padding-left: 180px;
+    color: white;
+    font-size: 20px;
+    margin-top: -100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+
+}
+#check2:checked~.faq3a{
+    margin-top: 10px;    
+    transition: margin-top 0.5s ease-out;
+    cursor: pointer;
+    
+}
+
+
+
+
+.faq4{
+    width: 1000px;
+    background-color: #24315e;
+    padding: 30px;
+    padding-top: 8px;
+    color: white;
+    font-size: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    
+}
+.faq4 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 920px;
+    cursor: pointer;
+ 
+}
+.faq4a{
+    width: 700px;
+    background-color:  #24315e;
+    padding: 30px;
+    padding-top: 8px;
+    padding-right: 180px;
+    padding-left: 180px;
+    color: white;
+    font-size: 20px;
+    margin-top: -100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+
+}
+#check3:checked~.faq4a{
+    margin-top: 10px;    
+    transition: margin-top 0.5s ease-out;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+.faq5{
+    width: 1000px;
+    background-color: #24315e;
+    padding: 30px;
+    padding-top: 8px;
+    color: white;
+    font-size: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    
+}
+.faq5 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 920px;
+    cursor: pointer;
+  
+}
+.faq5a{
+    width: 700px;
+    background-color:  #24315e;
+    padding: 30px;
+    padding-top: 8px;
+    padding-right: 180px;
+    padding-left: 180px;
+    color: white;
+    font-size: 20px;
+    margin-top: -100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+
+}
+#check4:checked~.faq5a{
+    margin-top: 10px;    
+    transition: margin-top 0.5s ease-out;
+    cursor: pointer;
+    
+}
+
+
+
+
+.faq6{
+    width: 1000px;
+    background-color: #24315e;
+    padding: 30px;
+    padding-top: 8px;
+    color: white;
+    font-size: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    
+}
+.faq6 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 920px;
+    cursor: pointer;
+    
+   
+}
+.faq6a{
+    width: 700px;
+    background-color:  #24315e;
+    padding: 30px;
+    padding-top: 8px;
+    padding-right: 180px;
+    padding-left: 180px;
+    color: white;
+    font-size: 20px;
+    margin-top: -100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+
+}
+#check5:checked~.faq6a{
+    margin-top: 10px;    
+    transition: margin-top 0.5s ease-out;
+    cursor: pointer;
+    
+}
+
+/* =====Freelancing======= */
+.freelancing{
+    background-image: url(./true.jpeg);
+    
+}
+.freelancing{
+    width: 97.1%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+    padding: 97px 20px 120px 20px;
+    padding-top: 40px;
+    margin-bottom: 120px;
+}
+
+.freelancing div{
+    color:#24315e;
+    font-style: bold;
+    font-weight: 700;
+    font-family: Arial;
+    text-align: center;
+    
+}
+.let{
+    background-color:white;
+    border: 2px solid black;
+    padding: 15px; 
+    margin-right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.let:hover{
+    background-color:#24315e;
+    color: white;
+}
+ 
+
+/* =============MYblog============== */
+
+.Blog{
+    color: red;
+    padding-left: 170px;
+
+}
+.Content{
+
+    font-size: 55px;
+    font-weight:800;
+   word-spacing: 3px;
+    color: #24315E;
+    padding-top: 15px;
+}
+
+.myblog{
+    display: flex;
+    justify-content:space-evenly ;
+    padding: 20px;
+    padding-left: 100px;
+
+}
+
+.myblog{
+
+    margin: 20px;
+}
+
+.blog1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #24315E;
+    font-family:var(--font-family-grotesk);
+    border-bottom: 0.5px solid;
+    border-bottom-color: slategray ;
+    padding-bottom: 10px;
+}
+
+.blog{
+    width: 300px;
+    box-sizing:border-box;
+    border: 2px solid #24315e;
+    border-radius: 100px;
+    overflow:hidden;
+}
+
+.blog img{
+    width: 300px;
+    margin-bottom: -10px;
+
+
+    
+}
+.blog img:hover{
+    width: 300px;
+    scale: 1.1;
+    transition: scale 1s ease-out;
+    cursor: pointer;
+
+}
+
+
+/*================Form================ */
+
+.contact{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://itemsstore.net/html/trito/img/contact/background.jpg);
+    padding: 1px;
+
+}
+
+.contact1{
+    margin: 100px;
+    font-size: 20px;
+    color: red;
+    
+}
+.contact2 {
+    font-size: 50px;
+    font-family: Calibri (Body);
+    font-weight: 550;
+    color: white;
+    padding-right: 10px;
+}
+.contact3{
+    font-size: 20px;
+    color: rgba(255,255,255,.5);
+}
+.contact3 div a{
+    font-size: 30px;
+    color: #fff;
+}
+.contact3 div a{
+    color: #fff;
+    cursor: pointer;
+}
+.contact3 div a:hover{
+    text-decoration: none;
+}
+.contact4{
+    background-color:rgba(255,255,255,.1);
+    color: white;
+    width: 120%;
+    padding: 30px 40px 35px 60px
+}
+
+.contact5{
+    margin: 100px;
+    background-color: white;
+    padding: 50px;
+    width: 450px;
+  
+}
+
+.contact5 div input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 200px;
+    height: auto;
+
+
+}
+.contact5 div input::placeholder{
+    font-size: 20px;
+    color: #505a7e;;
+
+}
+.contact5 div{
+    padding: 20px 200px 20px 60px;
+    margin: 20px;
+    border: 2px solid #24315e;
+}
+
+.button{
+    background-color: #06d8a7;
+    border: 2px solid #24315e;
+    padding: 20px 130px 20px 130px; 
+    margin-left: 3px;
+    margin-right: 3px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
+  
+}
+
+.contact5 div i{
+    font-size: 30px;
+    border-radius: 50%;
+    background-color:;
+    padding:20px;
+    margin: 20px;
+}
+.button:hover{
+    background-color:#24315e;
+    color: white;
+}
+ 
+
