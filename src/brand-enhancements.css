@@ -1,0 +1,2 @@
+.brand{gap:12px;font-family:var(--sans);font-size:16px;font-weight:800;letter-spacing:-.04em}.brand-mark{width:36px;height:36px;font:500 11px var(--mono);letter-spacing:0}.brand:hover{color:var(--mint)}.brand:hover .brand-mark{background:var(--accent);color:var(--ink);box-shadow:0 0 26px rgba(40,184,201,.38)}
+@media(max-width:800px){.brand{font-size:14px;gap:9px}.brand-mark{width:32px;height:32px;font-size:10px}}
